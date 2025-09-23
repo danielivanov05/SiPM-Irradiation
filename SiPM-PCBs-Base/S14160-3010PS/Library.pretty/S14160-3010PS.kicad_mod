@@ -1,0 +1,138 @@
+(footprint "S14160-3010PS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "D1"
+		(at 0 5.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dcf8bc14-d375-4012-805e-c4e666f4989c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 6.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "604d5c47-326e-4166-ac48-3ff5495a4c2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81a66ae2-2169-43fc-adec-22b1c569c9cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "semiconductor diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d619c62e-937f-47c3-bf27-cb3108609b01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" "type=\"\" model=\"D\" lib=\"semiconductor.lib\""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "078b4b1a-2dc4-4fe5-b701-7694bb858595")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "V/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83e96af9-f90b-4f71-bb57-66807bd00c89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.125 2.375)
+		(end -2.125 -2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ae88643-9f67-4d0c-aae8-b9c2c249232b")
+	)
+	(fp_line
+		(start 2.125 -2.375)
+		(end -2.125 -2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b74552a4-7802-4c2e-aa0d-8b27e2f52410")
+	)
+	(fp_line
+		(start 2.125 2.375)
+		(end -2.125 2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba5fb03d-d554-49f0-824c-e8be9aa1d0a1")
+	)
+	(fp_line
+		(start 2.125 2.375)
+		(end 2.125 -2.375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9299587a-3b50-4700-a445-a35f76b97594")
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 1.1 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "da648373-d27a-4049-9470-a25c491baeae")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 1.1 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd85a431-8c7b-40eb-ba2a-c21f96731ab5")
+	)
+	(embedded_fonts no)
+)

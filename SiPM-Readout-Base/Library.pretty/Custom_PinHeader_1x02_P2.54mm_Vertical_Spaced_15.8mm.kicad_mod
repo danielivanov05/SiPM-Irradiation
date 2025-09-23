@@ -1,0 +1,164 @@
+(footprint "Custom_PinHeader_1x02_P2.54mm_Vertical_Spaced_15.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(placed yes)
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x07, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x07 2.54mm single row")
+	(property "Reference" "R9"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(uuid "47864fe3-4cb6-4416-a2d8-6eb6dc785272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R"
+		(at 3 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72ccbcd8-e253-4307-b269-14aa6206c3a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "406e78ba-fdc9-41f0-8907-0a2d19c5a5d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2afb1a8b-47f0-4cb3-baf7-35afa5047013")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Indicator" "+"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b7cd901-18d7-485d-874a-a69412e0e8d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "W"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9905054-f35a-4843-b928-f06d5947bf16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -11.08)
+		(end -1.8 8.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a59ed41e-183b-4724-896b-7ab9730c25df")
+	)
+	(fp_line
+		(start -1.8 8.54)
+		(end 1.8 8.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "476e8651-a545-487b-8599-0f579751e002")
+	)
+	(fp_line
+		(start 1.8 -11.08)
+		(end -1.8 -11.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24ea0a34-395b-4030-ae99-405b44ff05ec")
+	)
+	(fp_line
+		(start 1.8 8.54)
+		(end 1.8 -11.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28a17c8f-cfc4-4b18-ba79-83955ead1b40")
+	)
+	(fp_circle
+		(center 0 6.02)
+		(end 0.2 6.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "c6c18b5f-b2db-40c3-aa43-6f7c4f6abeb8")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -9.17)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17ce2bb2-5b5e-4398-b166-c03e502277f2")
+	)
+	(pad "2" thru_hole oval
+		(at 0 6.63)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2027879-2497-40dd-bf56-a81c50dbbe37")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x07_P2.54mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

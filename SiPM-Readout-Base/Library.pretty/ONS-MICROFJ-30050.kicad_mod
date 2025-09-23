@@ -1,0 +1,327 @@
+(footprint "ONS-MICROFJ-30050"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "MICROFJ-30035-TSV-TR1 ")
+	(property "Reference" "D1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f84017f4-9e38-4cb9-8ea9-4ea63780facc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "766a80d2-8473-4222-a448-60ede42d7614")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21728e50-8bde-4b5b-8157-a4f4396f30c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "semiconductor diode"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1875a0f2-5fab-4ec3-8b9d-b1aaa25a5711")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field-1" "type=\"\" model=\"D\" lib=\"semiconductor.lib\""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dbe2e79-4c96-4058-a73c-7e141b7cb474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Rating" "V/A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "853a076d-ef83-46e9-8124-e61ec2b16eb1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7272 -1.7272)
+		(end -1.7272 1.7272)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4dfef46d-e731-4ef1-aec3-493f2d5224b4")
+	)
+	(fp_line
+		(start -1.7272 1.7272)
+		(end 1.7272 1.7272)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08a87320-54b2-4a17-8940-78b7a310d7d4")
+	)
+	(fp_line
+		(start 1.7272 -1.7272)
+		(end -1.7272 -1.7272)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e8c20c6-b1df-4877-a48e-a4ff1c552c0c")
+	)
+	(fp_line
+		(start 1.7272 1.7272)
+		(end 1.7272 -1.7272)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "005bffd4-bad1-415d-b2f7-13f85a68284f")
+	)
+	(fp_line
+		(start -1.8542 -1.8542)
+		(end 1.8542 -1.8542)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ca04107-87d9-4402-958b-1e1a8638f464")
+	)
+	(fp_line
+		(start -1.8542 1.8542)
+		(end -1.8542 -1.8542)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "536a58ea-f5a7-4993-a1c0-d3bd47dbdae0")
+	)
+	(fp_line
+		(start 1.8542 -1.8542)
+		(end 1.8542 1.8542)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "634d1533-ddb1-47b7-9dda-563c7cb58005")
+	)
+	(fp_line
+		(start 1.8542 1.8542)
+		(end -1.8542 1.8542)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f595a337-bd3d-4666-b2c1-fccb33311fdb")
+	)
+	(fp_line
+		(start -1.6002 -1.6002)
+		(end -1.6002 1.6002)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb9d6c6e-f4ab-4c4f-a4b8-2c528fe8dd0a")
+	)
+	(fp_line
+		(start -1.6002 1.6002)
+		(end 1.6002 1.6002)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff290b80-f391-4552-95ec-0aea548d44db")
+	)
+	(fp_line
+		(start -0.9702 -1.6002)
+		(end -1.6002 -0.970153)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e108efa1-d5c3-4548-8422-626c30899e4d")
+	)
+	(fp_line
+		(start 1.6002 -1.6002)
+		(end -1.6002 -1.6002)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c98c5484-ea52-4b92-8084-1f4bf4354634")
+	)
+	(fp_line
+		(start 1.6002 1.6002)
+		(end 1.6002 -1.6002)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b10c922f-a049-4a22-86ae-e03edc041d57")
+	)
+	(fp_text user "C"
+		(at -2.2352 1.260094 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "034c8c45-064e-42d6-b653-5adac300628d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at -2.2352 -1.260094 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13c06e14-1887-43e9-863f-4e7a133a2a67")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 1.26 -2.2352 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9d886084-6b43-4050-b2c4-bc3cca5e398e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -1.26 -2.2352 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e08a656d-4bb3-4d7c-8117-d7001bab6bd4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -1.26 -1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ca3aa01-c0ad-4427-921f-00eb12430a71")
+	)
+	(pad "A2" smd circle
+		(at 0 -1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b4283e7-0e69-447c-a3a0-cabf267b579b")
+	)
+	(pad "A3" smd circle
+		(at 1.26 -1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84abfe9e-389d-4edd-8cbb-d9d6a8933b11")
+	)
+	(pad "B1" smd circle
+		(at -1.26 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2315cbe5-df7c-430a-8442-2071aacfcd14")
+	)
+	(pad "B3" smd circle
+		(at 1.26 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c1d1bbb4-c011-4942-a892-4f5d22c25371")
+	)
+	(pad "C1" smd circle
+		(at -1.26 1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3265000f-07f6-4a7f-977f-884b41873eda")
+	)
+	(pad "C2" smd circle
+		(at 0 1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b97c64e8-150d-40eb-9545-e054ae295d62")
+	)
+	(pad "C3" smd circle
+		(at 1.26 1.260094)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6eb21814-ec46-4e95-80d6-45d82941aa1d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/packages3D/BGA8_MICROFJ_ONS.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
