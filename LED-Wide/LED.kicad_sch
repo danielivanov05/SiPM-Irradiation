@@ -488,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 107.95 106.68)
+			(xy 107.95 111.76) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 111.76 107.95)
+			(xy 111.76 113.03) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
@@ -538,7 +538,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 109.22 107.95)
+			(xy 109.22 113.03) (xy 109.22 114.3)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +568,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 106.68) (xy 109.22 106.68)
+			(xy 107.95 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -578,7 +578,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 113.03 106.68)
+			(xy 113.03 111.76) (xy 113.03 113.03)
 		)
 		(stroke
 			(width 0)
@@ -598,7 +598,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 111.76 106.68)
+			(xy 113.03 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
@@ -626,7 +626,7 @@
 		)
 		(uuid "f2bb9ebd-1158-4d78-8bcd-4271d3a956d0")
 	)
-	(global_label "PWR"
+	(global_label "LED+"
 		(shape input)
 		(at 133.35 83.82 180)
 		(fields_autoplaced yes)
@@ -638,7 +638,7 @@
 		)
 		(uuid "0702783b-b3cc-4000-9962-0d6e9a0fac44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.3734 83.82 0)
+			(at 125.3453 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -648,9 +648,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "LED-"
 		(shape input)
-		(at 113.03 105.41 90)
+		(at 113.03 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -660,7 +660,7 @@
 		)
 		(uuid "6bc8c2f8-eaf4-42d5-9926-696438046781")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 98.5543 90)
+			(at 113.03 103.7553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -670,7 +670,7 @@
 			)
 		)
 	)
-	(global_label "PWR"
+	(global_label "LED+"
 		(shape input)
 		(at 107.95 87.63 90)
 		(fields_autoplaced yes)
@@ -682,7 +682,7 @@
 		)
 		(uuid "8b0aac49-240e-4241-9a21-9e0d87ada7d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 80.6534 90)
+			(at 107.95 79.6253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,9 +692,9 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "LED-"
 		(shape input)
-		(at 107.95 105.41 90)
+		(at 107.95 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -704,7 +704,7 @@
 		)
 		(uuid "adaa62a3-1767-4771-a716-f6b16b394b8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 98.5543 90)
+			(at 107.95 103.7553 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +714,7 @@
 			)
 		)
 	)
-	(global_label "PWR"
+	(global_label "LED+"
 		(shape input)
 		(at 113.03 87.63 90)
 		(fields_autoplaced yes)
@@ -726,7 +726,7 @@
 		)
 		(uuid "b7d5aa26-f4e5-4671-aa28-93d763da903e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 80.6534 90)
+			(at 113.03 79.6253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +736,7 @@
 			)
 		)
 	)
-	(global_label "GND"
+	(global_label "LED-"
 		(shape input)
 		(at 157.48 83.82 0)
 		(fields_autoplaced yes)
@@ -748,7 +748,7 @@
 		)
 		(uuid "cad8621a-2e48-492b-aef1-67cfae4711a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3357 83.82 0)
+			(at 165.4847 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -863,7 +863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -975,7 +975,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 109.22 113.03 90)
+		(at 109.22 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -984,7 +984,7 @@
 		(fields_autoplaced yes)
 		(uuid "d842ea30-4d3f-4254-962f-c9026dfd3434")
 		(property "Reference" "J2"
-			(at 113.03 111.1249 90)
+			(at 113.03 117.4749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 113.03 113.6649 90)
+			(at 113.03 120.0149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,8 +1001,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
-			(at 109.22 113.03 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 109.22 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 113.03 0)
+			(at 109.22 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 109.22 113.03 0)
+			(at 109.22 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

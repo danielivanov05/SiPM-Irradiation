@@ -1,4 +1,4 @@
-26657470394457258
+26636864634460626
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -37877,13 +37877,6 @@ Surface mounted pin header SMD 2x40 2.00mm double row
 80
 80
 Connector_PinHeader_2.54mm
-Custom_PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-Connector_PinHeader_2.54mm
 PinHeader_1x01_P2.54mm_Horizontal
 Through hole angled pin header, 1x01, 2.54mm pitch, 6mm pin length, single row
 Through hole angled pin header THT 1x01 2.54mm single row
@@ -70559,90 +70552,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-Custom_PCB-Sized_PinSocket_1x02_P2.54mm_Vertical
-Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x02 2.54mm single row
-0
-2
-2
-Library
-Custom_PinHeader_1x02_P2.54mm_Vertical_Spaced_7.5mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-2
-2
-Library
-Custom_PinHeader_1x02_P2.54mm_Vertical_Spaced_10mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-2
-2
-Library
-Custom_PinHeader_1x02_P2.54mm_Vertical_Spaced_12.7mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-2
-2
-Library
-Custom_PinHeader_1x02_P2.54mm_Vertical_Spaced_15.8mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-2
-2
-Library
-Custom_PinHeader_1x04_P2.54mm_Vertical_Spaced_7.5mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-4
-2
-Library
-Custom_PinHeader_1x04_P2.54mm_Vertical_Spaced_10mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-4
-2
-Library
-Custom_PinHeader_1x04_P2.54mm_Vertical_Spaced_15.240mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-4
-2
-Library
-Custom_PinHeader_1x04_P2.54mm_Vertical_Spaced_18.340mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-4
-2
-Library
-Custom_PinHeader_1x04_P2.54mm_Vertical_Spaced_21.540mm
-Through hole straight pin header, 1x07, 2.54mm pitch, single row
-Through hole pin header THT 1x07 2.54mm single row
-0
-4
-2
-Library
-No_Courtyard_PinSocket_1x02_P2.54mm_Vertical
-Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x02 2.54mm single row
-0
-2
-2
-Library
-ONS-MICROFJ-30050
-
-MICROFJ-30035-TSV-TR1 
-0
-8
-8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

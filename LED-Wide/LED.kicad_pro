@@ -499,8 +499,8 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
-      "plot": "",
+      "netlist": "./",
+      "plot": "Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
